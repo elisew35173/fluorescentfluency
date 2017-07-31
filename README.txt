@@ -13,3 +13,8 @@ Buttons link to resource pages
 Home putton in top right that links to index
 
 Resource Pages
+
+clickable image with hover
+List of info
+  sitename
+  description
