@@ -4,37 +4,43 @@ body, html {
     background-color: #e6f2ff;
 }
 
+div.navbar {
+	width: 40%;
+	height: 20%;
+	margin: 0 auto;
+	display: inline-block;
+}
+
 a.nav:link, visited {
     color: blue;
+    font-size: 40px;
     font-family: Trebuchet, sans-serif;
     text-decoration: none;
     background-color: #FFFFFF;
     border: 2px solid #80c1ff;
     color: #80c1ff;
-    padding: 10px;
     text-align: center; 
-    text-decoration: none;
+    line-height: 100px;
+    width: 250px;
+    height: 100px;
     display: inline-block;
 }
 
 a.nav:hover, active {
     color: white;
     background-color: #fc94c8;
-
 }
 
 .divImage {
 	float: left;
-	margin-left: 2%;
+	margin: 0 auto;
 	font-family: Trebuchet, sans-serif;
 	text-align: left;
 	display: inline-block;
 	
 	width:400px; 
 	height:400px;
-	}
-
-
+}
 
 .imgLink {
 	opacity: 0.5;
