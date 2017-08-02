@@ -15,8 +15,8 @@ div.navbar {
 
 a.nav {
 	font-size: 40px;
-    border: 2px solid #00b300;
-    color: #00b300;
+    border: 2px solid #008000;
+    color: #008000;
     text-align: center; 
     text-decoration: none;
     line-height: 100px;
@@ -25,23 +25,22 @@ a.nav {
     float: center;
     display: inline-block;
     border-radius: 5px;
-    background-color: #009900;
 }
 a.nav:link, visited, active {
-	background-color: #009900;
+	background-color: #00cc00;
 }
 
 a.nav:hover {
-	color:white;
-    background-color: #00b300;
+	color: white;
+    background-color: #008000;
 }
 
 #backbar {
 	margin-left: 3%;
 	display: inline-block;
 	font-size: 30px;
-    border: 2px solid #00b300;
-    color: #00b300;
+    border: 2px solid #008000;
+    color: #008000;
     text-align: center; 
     text-decoration: none;
     line-height: 75px;
@@ -49,7 +48,7 @@ a.nav:hover {
     height: 75px;
     align-self: left;
     border-radius: 5px;
-    background-color: #009900;
+    background-color: #00cc00;
 }
 
 a.back:link, visited, active {
@@ -57,13 +56,12 @@ a.back:link, visited, active {
 }
 
 a.back:hover {
-	color: #00b300;
-    
+	color: #008000;
 }
 
 #home {
 	float: right;
-	border: 2px solid #00b300;
+	border: 2px solid #008000;
 	display: inline-block;
 	border-radius: 5px;
 	width: 50px;
@@ -99,7 +97,7 @@ a.img {
 	text-align: center;
 	line-height: 150px;
 	border-radius: 10px;
-	border: 2px solid #00b300;
+	border: 2px solid #008000;
 	border-style: outset;
 }
 
