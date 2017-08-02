@@ -1,7 +1,7 @@
 body, html {
     height: 100%;
     margin: 0;
-    background-color: #e18cff;
+    background-color: #C96AEB;
     font-family: Verdana, sans-serif;
 }
 
@@ -48,7 +48,7 @@ a.nav:hover {
     height: 75px;
     align-self: left;
     border-radius: 5px;
-    background-color: #f266ff;
+    background-color: #e18cff;
 }
 
 a.back:link, visited, active {
