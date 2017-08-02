@@ -3,7 +3,6 @@ body, html {
     margin: 0;
     background-color: #4dff4d;
     font-family: Verdana, sans-serif;
-    color:#000000;
 }
 
 div.navbar {
@@ -26,9 +25,10 @@ a.nav {
     float: center;
     display: inline-block;
     border-radius: 5px;
+    background-color: #009900;
 }
 a.nav:link, visited, active {
-	background-color: #FFFFFF;
+	background-color: #009900;
 }
 
 a.nav:hover {
@@ -49,8 +49,9 @@ a.nav:hover {
     height: 75px;
     align-self: left;
     border-radius: 5px;
-    background-color: #ffb599;
+    background-color: #009900;
 }
+
 a.back:link, visited, active {
 	text-decoration: none;
 }
@@ -67,6 +68,7 @@ a.back:hover {
 	border-radius: 5px;
 	width: 50px;
 	height: 50px
+	padding: 5px;
 }
 
 a.home:link, visited, active {
@@ -110,4 +112,5 @@ a.img:hover {
 	opacity:1;
 	border-style: inset;
 }
+
 
