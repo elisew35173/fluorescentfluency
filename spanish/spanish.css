@@ -32,7 +32,8 @@ a.nav:link, visited, active {
 
 a.nav:hover {
 	color: white;
-    background-color: #004d00;
+    background-color: #008000;
+    border: 2px solid #008000;
 }
 
 #backbar {
@@ -44,19 +45,24 @@ a.nav:hover {
     text-align: center; 
     text-decoration: none;
     line-height: 75px;
-    width: 250px;
+    width: 300px;
     height: 75px;
     align-self: left;
     border-radius: 5px;
     background-color: #00cc00;
 }
 
-a.back:link, visited, active {
+a.back:link, visited {
 	text-decoration: none;
+	color: #004d00;
 }
 
 a.back:hover {
 	color: #FFFFFF;
+}
+
+a.back:active {
+	color: #004d00;
 }
 
 #home {
@@ -78,6 +84,11 @@ a.home:hover {
     
 }
 
+.divDiv {
+	display: flex;
+    align-items: top;
+}
+
 .divImage {
 	float: center;
 	margin-left: 3%;
@@ -95,7 +106,7 @@ a.home:hover {
 a.img {
 	display: inline-block;
 	text-align: center;
-	line-height: 150px;
+	line-height: 0px;
 	border-radius: 10px;
 	border: 2px solid #004d00;
 	border-style: outset;
