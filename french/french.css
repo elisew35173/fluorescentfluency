@@ -4,6 +4,7 @@ body, html {
     background-color: #ffb566;
     font-family: Verdana, sans-serif;
 }
+
 .row {
 	display:flex;
 	align-items:top;
@@ -21,7 +22,7 @@ div.topbuttons{
 
 #pagetitle {
 	display:inline-block;
-	margin-left:25%;
+	margin-left:21%;
 	margin-right:25%;
 }
 
