@@ -15,8 +15,8 @@ div.navbar {
 
 a.nav {
 	font-size: 40px;
-    border: 2px solid #008000;
-    color: #008000;
+    border: 2px solid #004d00;
+    color: #004d00;
     text-align: center; 
     text-decoration: none;
     line-height: 100px;
@@ -33,35 +33,41 @@ a.nav:link, visited, active {
 a.nav:hover {
 	color: white;
     background-color: #008000;
+    border: 2px solid #008000;
 }
 
 #backbar {
 	margin-left: 3%;
 	display: inline-block;
 	font-size: 30px;
-    border: 2px solid #008000;
-    color: #008000;
+    border: 2px solid #004d00;
+    color: #004d00;
     text-align: center; 
     text-decoration: none;
     line-height: 75px;
-    width: 250px;
+    width: 300px;
     height: 75px;
     align-self: left;
     border-radius: 5px;
     background-color: #00cc00;
 }
 
-a.back:link, visited, active {
+a.back:link, visited {
 	text-decoration: none;
+	color: #004d00;
 }
 
 a.back:hover {
-	color: #008000;
+	color: #FFFFFF;
+}
+
+a.back:active {
+	color: #004d00;
 }
 
 #home {
 	float: right;
-	border: 2px solid #008000;
+	border: 2px solid #004d00;
 	display: inline-block;
 	border-radius: 5px;
 	width: 50px;
@@ -76,6 +82,11 @@ a.home:link, visited, active {
 
 a.home:hover {
     
+}
+
+.divDiv {
+	display: flex;
+    align-items: top;
 }
 
 .divImage {
@@ -95,9 +106,9 @@ a.home:hover {
 a.img {
 	display: inline-block;
 	text-align: center;
-	line-height: 150px;
+	line-height: 0px;
 	border-radius: 10px;
-	border: 2px solid #008000;
+	border: 2px solid #004d00;
 	border-style: outset;
 }
 
