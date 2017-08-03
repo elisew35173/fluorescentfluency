@@ -15,8 +15,8 @@ div.navbar {
 
 a.nav {
 	font-size: 40px;
-    border: 2px solid #008000;
-    color: #008000;
+    border: 2px solid #004d00;
+    color: #004d00;
     text-align: center; 
     text-decoration: none;
     line-height: 100px;
@@ -32,15 +32,15 @@ a.nav:link, visited, active {
 
 a.nav:hover {
 	color: white;
-    background-color: #008000;
+    background-color: #004d00;
 }
 
 #backbar {
 	margin-left: 3%;
 	display: inline-block;
 	font-size: 30px;
-    border: 2px solid #008000;
-    color: #008000;
+    border: 2px solid #004d00;
+    color: #004d00;
     text-align: center; 
     text-decoration: none;
     line-height: 75px;
@@ -56,12 +56,12 @@ a.back:link, visited, active {
 }
 
 a.back:hover {
-	color: #008000;
+	color: #FFFFFF;
 }
 
 #home {
 	float: right;
-	border: 2px solid #008000;
+	border: 2px solid #004d00;
 	display: inline-block;
 	border-radius: 5px;
 	width: 50px;
@@ -97,7 +97,7 @@ a.img {
 	text-align: center;
 	line-height: 150px;
 	border-radius: 10px;
-	border: 2px solid #008000;
+	border: 2px solid #004d00;
 	border-style: outset;
 }
 
