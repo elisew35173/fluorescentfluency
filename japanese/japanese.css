@@ -1,7 +1,7 @@
 body, html {
     height: 100%;
     margin: 0;
-    background-color: #C96AEB;
+    background-color: #CD69D1;
     font-family: Verdana, sans-serif;
 }
 
@@ -15,8 +15,8 @@ div.navbar {
 
 a.nav {
 	font-size: 40px;
-    border: 2px solid #700096;
-    color: #700096;
+    border: 2px solid #8C0191;
+    color: #8C0191;
     text-align: center; 
     text-decoration: none;
     line-height: 100px;
@@ -32,15 +32,15 @@ a.nav:link, visited, active {
 
 a.nav:hover {
 	color:white;
-    background-color: #700096;
+    background-color: #8C0191;
 }
 
 #backbar {
 	margin-left: 3%;
 	display: inline-block;
 	font-size: 30px;
-    border: 2px solid #700096;
-    color: #700096;
+    border: 2px solid #8C0191;
+    color: #8C0191;
     text-align: center; 
     text-decoration: none;
     line-height: 75px;
@@ -48,7 +48,7 @@ a.nav:hover {
     height: 75px;
     align-self: left;
     border-radius: 5px;
-    background-color: #e18cff;
+    background-color: #C25AC6;
 }
 
 a.back:link, visited, active {
@@ -56,13 +56,13 @@ a.back:link, visited, active {
 }
 
 a.back:hover {
-	color: #700096;
+	color: #8C0191;
     
 }
 
 #home {
 	float: right;
-	border: 2px solid #700096;
+	border: 2px solid #8C0191;
 	display: inline-block;
 	border-radius: 5px;
 	width: 50px;
@@ -98,7 +98,7 @@ a.img {
 	text-align: center;
 	line-height: 150px;
 	border-radius: 10px;
-	border: 2px solid #700096;
+	border: 2px solid #8C0191;
 	border-style: outset;
 }
 
