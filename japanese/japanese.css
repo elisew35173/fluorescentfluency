@@ -5,6 +5,10 @@ body, html {
     font-family: Verdana, sans-serif;
 }
 
+#bar {
+
+}
+
 div.navbar {
 	width: 40%;
 	height: 20%;
@@ -60,6 +64,13 @@ a.back:hover {
     
 }
 
+#title {
+	width: 40%;
+	color: #8C0191;
+	display: inline-block;
+	text-align: center;
+}
+
 #home {
 	float: right;
 	border: 2px solid #8C0191;
@@ -77,6 +88,11 @@ a.home:link, visited, active {
 
 a.home:hover {
     
+}
+
+.divDiv {
+	display: flex;
+    align-items: top;
 }
 
 .divImage {

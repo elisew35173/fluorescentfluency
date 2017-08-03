@@ -79,6 +79,11 @@ a.home:hover {
     
 }
 
+.divDiv {
+	display: flex;
+    align-items: top;
+}
+
 .divImage {
 	float: center;
 	margin-left: 3%;
