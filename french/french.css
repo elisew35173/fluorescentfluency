@@ -117,7 +117,7 @@ a.home:hover {
 a.img {
 	display: inline-block;
 	text-align: center;
-	line-height: 150px;
+	line-height: 0px;
 	border-radius: 10px;
 	border: 2px solid #fc7623;
 	border-style: outset;
