@@ -101,8 +101,7 @@ a.home:hover {
 
 .divImage {
 	float: center;
-	/*margin-left: 3%;*/
-	/*margin-top: 5%;*/
+	margin-left: 3%;
 	text-align: left;
 	display: inline-block;
 	width:33%; 
