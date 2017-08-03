@@ -13,20 +13,6 @@ body, html {
 	margin-bottom:3%;
 }
 
-	
-div.topbuttons{
-	margin-left:5%;
-	margin-right:5%;
-	margin-bottom:3%;
-}
-
-#pagetitle {
-	display:inline-block;
-	margin-left:15%;
-	margin-right:25%;
-	color: #004d00;
-}
-
 div.navbar {
 	width: 280px;
 	height: 230px;
@@ -59,6 +45,11 @@ a.nav:hover {
     border: 2px solid #008000;
 }
 
+#bar {
+	width: 100%;
+	height: 10%;
+}
+
 #backbar {
 	margin-left: 3%;
 	display: inline-block;
@@ -86,6 +77,13 @@ a.back:hover {
 
 a.back:active {
 	color: #004d00;
+}
+
+#title {
+	width: 100%;
+	color: #004d00;
+	display: inline-block;
+	text-align: center;
 }
 
 #home {
