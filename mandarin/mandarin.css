@@ -29,7 +29,6 @@ a.nav {
 a.nav:link, visited, active {
 	background-image: url('../lightbulb.png');
 	background-size: 230px 230px;
-	/*#f266ff;*/
 }
 
 a.nav:hover {
