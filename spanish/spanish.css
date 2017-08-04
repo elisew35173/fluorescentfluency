@@ -42,8 +42,7 @@ a.nave:link, visited, active {
 
 a.nave:hover {
 	color: white;
-    background-color: #008000;
-    border: 2px solid #008000;
+    background-color: #004d00;
 }
 
 #bar {
@@ -52,32 +51,31 @@ a.nave:hover {
 }
 
 #backbar {
-	margin-left: 3%;
+    float: left;
 	display: inline-block;
-	font-size: 30px;
+	font-size: 20px;
     border: 2px solid #004d00;
-    color: #004d00;
     text-align: center; 
     text-decoration: none;
-    line-height: 75px;
-    width: 300px;
-    height: 75px;
-    align-self: left;
+    line-height: 50px;
+    width: 200px;
+    height: 50px;
     border-radius: 5px;
     background-color: #00cc00;
 }
 
-a.back:link, visited {
+#backbar:hover {
+	background-color: #004d00;
+	color: white;
+}
+
+a.back:link, visited, active {
 	text-decoration: none;
 	color: #004d00;
 }
 
 a.back:hover {
-	color: #FFFFFF;
-}
-
-a.back:active {
-	color: #004d00;
+	background-color: #004d00;
 }
 
 #title {
@@ -125,7 +123,7 @@ a.home:hover {
 
 .imgLink {
 	border-radius: 8px;
-	background-color: white;
+	
 }
 
 a.img {
