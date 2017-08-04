@@ -2,6 +2,7 @@ body, html {
     height: 100%;
     margin: 0;
     background-color: #71da71;
+    color: #004d00;
     font-family: Verdana, sans-serif;
 }
 
@@ -65,8 +66,8 @@ a.nave:hover {
 }
 
 #backbar:hover {
-	background-color: #004d00;
 	color: white;
+	background-color: #004d00;
 }
 
 a.back:link, visited, active {
