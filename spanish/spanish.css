@@ -85,6 +85,14 @@ a.back:hover {
 	text-align: center;
 }
 
+h1 {
+	margin: 0px;
+}
+
+.hint {
+	font-size: 12px;
+}
+
 #home {
 	float: right;
 	border: 2px solid #004d00;
