@@ -1,7 +1,7 @@
 body, html {
     height: 100%;
     margin: 0;
-    background-color: #66ff33;
+    background-color: #71da71;
     font-family: Verdana, sans-serif;
 }
 
@@ -61,7 +61,7 @@ a.nave:hover {
     width: 200px;
     height: 50px;
     border-radius: 5px;
-    background-color: #00cc00;
+    background-color: #39ac39;
 }
 
 #backbar:hover {
@@ -83,6 +83,14 @@ a.back:hover {
 	color: #004d00;
 	display: inline-block;
 	text-align: center;
+}
+
+h1 {
+	margin: 0px;
+}
+
+.hint {
+	font-size: 12px;
 }
 
 #home {
@@ -123,7 +131,7 @@ a.home:hover {
 
 .imgLink {
 	border-radius: 8px;
-	
+	background-color: white;
 }
 
 a.img {
