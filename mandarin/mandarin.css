@@ -1,7 +1,7 @@
 body, html {
     height: 100%;
     margin: 0;
-    background-color: #FB3741;
+    background-color: #ff4d4d;
     font-family: Verdana, sans-serif;
 }
 
@@ -78,6 +78,7 @@ a.back:hover {
 	width: 100%;
 	display: inline-block;
 	text-align: center;
+	color: #E7000C;
 }
 
 #home {
@@ -124,7 +125,7 @@ a.home:hover {
 a.img {
 	display: inline-block;
 	text-align: center;
-	line-height: 150px;
+	line-height: 0px;
 	border-radius: 10px;
 	border: 2px solid #E7000C;
 	border-style: outset;
