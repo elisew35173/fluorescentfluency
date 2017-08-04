@@ -75,7 +75,7 @@ a.back:link, visited, active {
 }
 
 a.back:hover {
-    background-color: #4a004d
+    background-color: #4a004d;
 }
 
 #title {
