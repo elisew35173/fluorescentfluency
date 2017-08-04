@@ -81,6 +81,14 @@ a.back:hover {
 	color: #E7000C;
 }
 
+h1 {
+	margin: 0px;
+}
+
+.hint {
+	font-size: 12px;
+}
+
 #home {
 	float: right;
 	border: 2px solid #E7000C;
