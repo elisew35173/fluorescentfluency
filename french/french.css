@@ -94,7 +94,11 @@ a.back:hover {
 }
 
 h1 {
+	margin: 0px;
+}
 
+.hint {
+	font-size: 12px;
 }
 
 #home {
