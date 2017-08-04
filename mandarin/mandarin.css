@@ -141,3 +141,12 @@ a.img:hover {
 	border-style: inset;
 }
 
+.little {
+	width: 200px;
+	height: 200px;
+	background-image: url('../largerLOGO.png');
+	background-size: 200px 200px;
+	position:fixed; 
+	bottom:-50px; 
+	right:0%;
+}
