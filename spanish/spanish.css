@@ -5,23 +5,24 @@ body, html {
     font-family: Verdana, sans-serif;
 }
 
-.row {
-	display:flex;
-	align-items:top;
-	margin-left:5%;
-	margin-right:5%;
-	margin-bottom:3%;
+#navbar {
+	margin-top: 20px;
+	display: flex;
+    align-items: top;
+    text-align:center;
+	width: 100%;
 }
 
-div.navbar {
+div.nav {
 	width: 280px;
 	height: 230px;
 	margin-top: 5%;
-	margin-left: 3%;
+	margin-left:auto;
+	margin-right:auto;
 	display: inline-block;
 }
 
-a.nav {
+a.nave {
 	font-size: 40px;
     border: 2px solid #004d00;
     color: #004d00;
@@ -34,12 +35,12 @@ a.nav {
     display: inline-block;
     border-radius: 5px;
 }
-a.nav:link, visited, active {
+a.nave:link, visited, active {
 	background-image: url('../lightbulb.png');
 	background-size: 230px 230px;
 }
 
-a.nav:hover {
+a.nave:hover {
 	color: white;
     background-color: #008000;
     border: 2px solid #008000;
@@ -106,17 +107,20 @@ a.home:hover {
 }
 
 .divDiv {
+	margin-top: 20px;
 	display: flex;
     align-items: top;
+    text-align:center;
 }
 
 .divImage {
 	float: center;
-	margin-left: 3%;
-	margin-top: 5%;
 	text-align: left;
 	display: inline-block;
 	width:360px; 
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 5%;
 }
 
 .imgLink {

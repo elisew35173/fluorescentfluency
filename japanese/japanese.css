@@ -110,6 +110,7 @@ a.home:hover {
 }
 
 .divDiv {
+	margin-top: 20px;
 	display: flex;
     align-items: top;
     text-align:center;
