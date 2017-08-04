@@ -45,6 +45,10 @@ a.why:hover {
 	text-decoration: underline;
 	color: white;
 }
+a.btn:hover {
+	text-decoration:none;
+	color:white;
+}
 
 #menu1 {
 	background-color: #0080ff;
