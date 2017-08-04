@@ -1,7 +1,8 @@
 body, html {
     height: 100%;
     margin: 0;
-    background-color: #CD69D1;
+    background-color: #e09de1;
+    color: #4a004d;
     font-family: Verdana, sans-serif;
 }
 
@@ -24,8 +25,7 @@ div.nav {
 
 a.nave {
 	font-size: 40px;
-    border: 2px solid #8C0191;
-    color: #8C0191;
+    border: 2px solid #4a004d;
     text-align: center; 
     text-decoration: none;
     line-height: 200px;
@@ -43,7 +43,7 @@ a.nave:link, visited, active {
 
 a.nave:hover {
 	color:white;
-    background-color: #8C0191;
+    background-color: #4a004d;
 }
 
 #bar {
@@ -55,33 +55,33 @@ a.nave:hover {
 	float: left;
 	display: inline-block;
 	font-size: 20px;
-    border: 2px solid #8C0191;
+    border: 2px solid #4a004d;
     text-align: center; 
     text-decoration: none;
     line-height: 50px;
     width: 200px;
     height: 50px;
     border-radius: 5px;
-    background-color: #C25AC6;
+    background-color: #d376d5;
 }
 
 #backbar:hover {
-	background-color: #8C0191;
+	background-color: #4a004d;
 	color:white;
 }
 
 a.back:link, visited, active {
-	color: #8C0191;
+	color: #4a004d;
 	text-decoration: none;
 }
 
 a.back:hover {
-    background-color: #8C0191
+    background-color: #4a004d
 }
 
 #title {
 	width: 100%;
-	color: #8C0191;
+	color: #4a004d;
 	display: inline-block;
 	text-align: center;
 }
@@ -96,7 +96,7 @@ h1 {
 
 #home {
 	float: right;
-	border: 2px solid #8C0191;
+	border: 2px solid #4a004d;
 	display: inline-block;
 	border-radius: 5px;
 	width: 50px;
@@ -140,7 +140,7 @@ a.img {
 	text-align: center;
 	line-height: 150px;
 	border-radius: 10px;
-	border: 2px solid #8C0191;
+	border: 2px solid #4a004d;
 	border-style: outset;
 }
 
