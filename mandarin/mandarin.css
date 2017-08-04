@@ -26,7 +26,6 @@ a.nav {
     display: inline-block;
     border-radius: 5px;
 }
-
 a.nav:link, visited, active {
 	background-image: url('../lightbulb.png');
 	background-size: 230px 230px;
@@ -38,8 +37,13 @@ a.nav:hover {
     background-color: #E7000C;
 }
 
+#bar {
+	width: 100%;
+	height: 10%;
+}
+
 #backbar {
-	margin-left: 3%;
+	float:left;
 	display: inline-block;
 	font-size: 30px;
     border: 2px solid #E7000C;
@@ -49,7 +53,6 @@ a.nav:hover {
     line-height: 75px;
     width: 275px;
     height: 75px;
-    align-self: left;
     border-radius: 5px;
     background-color: #FC9398;
 }
@@ -61,6 +64,12 @@ a.back:link, visited, active {
 a.back:hover {
 	color: #E7000C;
     
+}
+
+#title {
+	width: 100%;
+	display: inline-block;
+	text-align: center;
 }
 
 #home {
