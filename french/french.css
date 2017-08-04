@@ -2,7 +2,7 @@ body, html {
 	height:100%;
     margin: 0;
     background-color: #ffb380;
-    color: #cc5200;
+    color: #b34700;
     font-family: Verdana, sans-serif;
 }
 
@@ -25,7 +25,7 @@ div.nav {
 
 a.nave {
 	font-size: 40px;
-    border: 2px solid #cc5200;
+    border: 2px solid #b34700;
     text-align: center; 
     text-decoration: none;
     line-height: 200px;
@@ -42,7 +42,7 @@ a.nave:link, visited, active {
 
 a.nave:hover {
 	color:white;
-    background-color: #cc5200;
+    background-color: #b34700;
 }
 
 #bar {
@@ -54,7 +54,7 @@ a.nave:hover {
     float: left;
 	display: inline-block;
 	font-size: 20px;
-    border: 2px solid #cc5200;
+    border: 2px solid #b34700;
     text-align: center; 
     text-decoration: none;
     line-height: 50px;
@@ -65,22 +65,22 @@ a.nave:hover {
 }
 
 #backbar:hover {
-	background-color: #cc5200;
+	background-color: #b34700;
 	color:white;
 }
 
 a.back:link, visited, active {
-	color: #cc5200;
+	color: #b34700;
 	text-decoration: none;
 }
 
 a.back:hover {
-	background-color: #cc5200;
+	background-color: #b34700;
 }
 
 #title {
 	width: 100%;
-	color: #cc5200;
+	color: #b34700;
 	display: inline-block;
 	text-align: center;
 }
@@ -95,7 +95,7 @@ h1 {
 
 #home {
 	float: right;
-	border: 2px solid #cc5200;
+	border: 2px solid #b34700;
 	display: inline-block;
 	border-radius: 5px;
 	width: 50px;
@@ -139,7 +139,7 @@ a.img {
 	text-align: center;
 	line-height: 0px;
 	border-radius: 10px;
-	border: 2px solid #cc5200;
+	border: 2px solid #b34700;
 	border-style: outset;
 }
 
