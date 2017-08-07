@@ -39,6 +39,7 @@ a.nave {
 a.nave:link, visited, active {
 	background-image: url('../lightbulb.png');
 	background-size: 230px 230px;
+	color: #cc5200;
 }
 
 a.nave:hover {
