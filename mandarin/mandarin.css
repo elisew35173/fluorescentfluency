@@ -26,6 +26,7 @@ div.nav {
 a.nave {
 	font-size: 40px;
     border: 2px solid #E7000C;
+   	color: #E7000C;
     text-align: center; 
     text-decoration: none;
     line-height: 200px;
