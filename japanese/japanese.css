@@ -6,6 +6,10 @@ body, html {
     font-family: Verdana, sans-serif;
 }
 
+h3 {
+	text-align: center;
+}
+
 #navbar {
 	margin-top: 20px;
 	display: flex;
@@ -157,7 +161,7 @@ a.img:hover {
 .little {
 	width: 200px;
 	height: 100px;
-	background-image: url('../littleLOGO.png');
+	background-image: url('../littleLOGO3.png');
 	background-size: 200px 100px;
 	position:fixed; 
 	bottom:0px; 
