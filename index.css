@@ -69,17 +69,15 @@ a.btn:hover {
 	width: 200px;
 }
 
-.flydown {
-	
+.submenu {
+	display: none;
+	background-color: white;
 }
-
-.flydown:hover {
-	
-}
-
 
 ul ul {position: absolute; top: -1px; left: 8em; display: none; }
 /* sets up all ul elements beneath the parent ul, the -px is to counter the movement forced by the border, bear in mind that the li:first-child doesn't *have* a border, so adjust to taste */
 
-ul > li:hover > ul {display: block; }
+ul > li:hover > ul {
+	display: block; 
+}
 /* makes the nested list appear if the parent-li is hovered */
