@@ -35,8 +35,8 @@
 				<br>
 				<br>
 				<br>
-				<a href="aboutus.html" class="btn" role="button">About The Creators</a>
-				<a href="aboutff.html" class="btn" role="button">About Fluorescent Fluency</a>
+				<a id="quicklink" href="aboutus.html" class="btn" role="button">About The Creators</a>
+				<a id="quicklink" href="aboutff.html" class="btn" role="button">About Fluorescent Fluency</a>
 				<br>
 				<br>
 				<br>
@@ -50,15 +50,13 @@
 				<br>
 				<br>
 				<br>
-
 				<div class="dropdown">
-
-				    <button class="btn btn-primary dropdown-toggle" id="menu1" type="button" data-toggle="dropdown">LEARN <span class="caret" style="border-width:8px;"></span></button>
+				    <button class="btn btn-primary dropdown-toggle" id="learn" type="button" data-toggle="dropdown">LEARN <span class="caret" style="border-width:8px;"></span></button>
 
 				    <ul class="dropdown-menu">
 
-				    	<li><a tabindex="-1" href="spanish/spanish.html">Spanish</a>
-						    <ul class="submenu ">
+				    	<li><a tabindex="-1" href="spanish/spanish.html">Spanish<span class="glyphicon glyphicon-menu-right"></span></a>
+						    <ul class="dropdown-menu submenu" id="spanishmenu">
 		    					<li><a href="spanish/spanishvocab.html">Vocabulary</a></li>
 		    					<li><a href="spanish/spanishgrammar.html">Grammar</a></li>
 		    					<li><a href="spanish/spanishreading.html">Reading</a></li>
@@ -66,9 +64,33 @@
 		  					</ul>
 		  				</li>
 
-				    	<li><a tabindex="-1" href="mandarin/mandarin.html">Mandarin</a></li>
-				    	<li><a tabindex="-1" href="french/french.html">French</a></li>
-				    	<li><a tabindex="-1" href="japanese/japanese.html">Japanese</a></li>    
+				    	<li><a tabindex="-1" href="mandarin/mandarin.html">Mandarin<span class="glyphicon glyphicon-menu-right"></span></a>
+				    		<ul class="dropdown-menu submenu" id="mandarinmenu">
+		    					<li><a href="mandarin/mandarinvocab.html">Vocabulary</a></li>
+		    					<li><a href="mandarin/mandaringrammar.html">Grammar</a></li>
+		    					<li><a href="mandarin/mandarinreading.html">Reading</a></li>
+		    					<li><a href="mandarin/mandarinlistening.html">Listening</a></li>
+		  					</ul>
+				    	</li>
+
+				    	<li><a tabindex="-1" href="french/french.html">French<span class="glyphicon glyphicon-menu-right"></span></a>
+				    		<ul class="dropdown-menu submenu" id="frenchmenu">
+		    					<li><a href="french/frenchvocab.html">Vocabulary</a></li>
+		    					<li><a href="french/frenchgrammar.html">Grammar</a></li>
+		    					<li><a href="french/frenchreading.html">Reading</a></li>
+		    					<li><a href="french/frenchlistening.html">Listening</a></li>
+		  					</ul>
+				    	</li>
+
+				    	<li><a tabindex="-1" href="japanese/japanese.html">Japanese<span class="glyphicon glyphicon-menu-right"></span></a>
+				    		<ul class="dropdown-menu submenu" id="japanesemenu">
+		    					<li><a href="japanese/japanesevocab.html">Vocabulary</a></li>
+		    					<li><a href="japanese/japanesegrammar.html">Grammar</a></li>
+		    					<li><a href="japanese/japanesereading.html">Reading</a></li>
+		    					<li><a href="japanese/japaneselistening.html">Listening</a></li>
+		  					</ul>
+				    	</li>    
+				    
 				    </ul>
 
   				</div>

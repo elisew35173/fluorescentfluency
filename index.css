@@ -17,6 +17,10 @@ body, html {
     text-align: center;
 }
 
+#quicklink {
+	font-size: 22px;
+}
+
 a {
 	text-decoration: none;
 }
@@ -51,7 +55,7 @@ a.btn:hover {
 	color: white;
 }
 
-#menu1 {
+#learn {
 	background-color: #0080ff;
 	color: white;
 	width: 200px !important;
@@ -69,15 +73,46 @@ a.btn:hover {
 	width: 200px;
 }
 
+.glyphicon-menu-right {
+	font-size: 12px;
+	float: right;
+	margin-top: 2px;
+}
+
 .submenu {
 	display: none;
 	background-color: white;
+	font-size: 14px;
+	color: black;
+	left: 100%;
+	text-align: left;
+	width: 200px;
 }
 
-ul ul {position: absolute; top: -1px; left: 8em; display: none; }
-/* sets up all ul elements beneath the parent ul, the -px is to counter the movement forced by the border, bear in mind that the li:first-child doesn't *have* a border, so adjust to taste */
+#spanishmenu {
+	transform: translate(0, -101%);
+}
+
+#mandarinmenu {
+	transform: translate(0, -76%);
+}
+
+#frenchmenu {
+	transform: translate(0, -51%);
+}
+
+#japanesemenu {
+	transform: translate(0, -26%);
+}
+
+ul ul {
+	position: absolute; 
+	top: 0; 
+	left: 200px; 
+	display: none; 
+}
 
 ul > li:hover > ul {
 	display: block; 
 }
-/* makes the nested list appear if the parent-li is hovered */
+
