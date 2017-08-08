@@ -10,6 +10,8 @@ body, html {
 	display:block;
 }
 
+
+/* CSS for responsive logo */
 .img-responsive {
 	border-radius: 200px;
 	margin-top: 100px;
@@ -17,6 +19,8 @@ body, html {
     text-align: center;
 }
 
+
+/* CSS for "About" links */
 #quicklink {
 	font-size: 22px;
 }
@@ -29,10 +33,12 @@ a:hover {
 	text-decoration: none;
 }
 
-table, th, td {
+
+/* CSS for "Why Learn Languages" link */
+p {
+	border-radius: 25px;
 	border: 2px solid #0080ff;
 	padding: 20px;
-	border-radius:5px;
 }
 
 .why {
@@ -50,6 +56,8 @@ a.why:hover {
 	color: #0080ff;
 }
 
+
+/* CSS for the LEARN button and menus */
 a.btn:hover {
 	text-decoration: none;
 	color: white;
