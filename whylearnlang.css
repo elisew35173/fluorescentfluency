@@ -11,8 +11,23 @@ body,html {
 	margin-right:5%;
 }
 
-.links {
+.bottomlinks {
 	text-align: center;
+}
+
+.links {
+	text-decoration: none;
+	color:#0080ff;
+}
+
+a.links:link, visited, active {
+	text-decoration:none;
+	color:#0080ff;
+}
+
+a.links:hover {
+	text-decoration: none;
+	color:grey;
 }
 
 h1 {
@@ -30,11 +45,6 @@ h1 {
 	height: 50px;
 }
 
-a {
-	text-decoration:none;
-	color:#0080ff;
-}
-
 a.home:link, visited, active {
 	border-radius: 5px;
 	text-decoration: none;
@@ -42,11 +52,6 @@ a.home:link, visited, active {
 
 a.home:hover {
 	
-}
-
-a.linked:hover {
-	text-decoration:none;
-	color:grey;
 }
 
 .little {
