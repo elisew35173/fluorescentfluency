@@ -162,10 +162,8 @@ a.img:hover {
 #foot {
 	bottom:0px;
 	display: flex;
-    align-items: bottom;
     align-items: center;
     text-align: center;
-    background-color:white;
     margin-top:5%;
     width: 100%; 
     background-color: #f1f1c1;
@@ -272,14 +270,4 @@ a.mandarin:active {
 	text-decoration: none;
 	color:red;
 
-}
-
-.little {
-	width: 200px;
-	height: 100px;
-	background-image: url('../littleLOGO3.png');
-	background-size: 200px 100px;
-	position:fixed; 
-	bottom:0px; 
-	right:0%;
 }
